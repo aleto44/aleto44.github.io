@@ -1,0 +1,41 @@
+.mainContent{
+    text-align: center;
+}
+
+.right-align{
+    justify-content: right;
+}
+
+.plot-text{
+    color: white;
+}
+
+.logo{
+    width:50%;
+}
+
+
+body{
+    background-color: #6E6E6E;
+    width: 100%;
+    height:100%;
+}
+.mainContent{
+    background-color: #6E6E6E;
+    height: 100%;
+    width: 100%;
+}
+
+.nen-grid-container{
+    margin: 0 auto;
+    display: inline-block;
+    grid-template-columns: repeat (4, auto);
+    
+    
+}
+
+.nen-grid-item{
+    width:20%;
+    float: left;
+    margin: 10px;
+}
